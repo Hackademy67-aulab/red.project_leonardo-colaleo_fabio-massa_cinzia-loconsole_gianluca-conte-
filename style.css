@@ -33,7 +33,7 @@
 
 /* riga top logo + link */
 .rigalogo{
-    height: 350px;
+    height: 35%;
     width: 100%
 }
 
@@ -44,6 +44,8 @@
     background-position-x: left;
     background-position-y: bottom;
     background-size: contain;
+    height: 350px;
+    width: 100%;
 }
 
 /* riga top - logo */
@@ -64,13 +66,6 @@ h1{
     color: #8B0102;
 }
 
-@media screen and (min-width: 500px;){
-    #paginaintera{
-        height: 50vh;
-        background-color: #8B0102;
-
-    }
-}
 
 /* prima sezione frase lorem */
 .lorem1{
@@ -85,62 +80,121 @@ h1{
     text-align: center;
 }
 
-.virgolette{
-    color: #8B0102;
-}
 
-
+/* logo iniziale */
 .logo-dimension{
     height:30%;
-
 }
+
+
+/* navbar*/
 .link-decoration{
     list-style: none;
 }
+
+
+/* a navbar */
 .link-decoration a{
     text-decoration: none;
     margin-right: 30px;
     color:  #8B0102;
 }
-.text-size{
-    font-size: x-small;
-}
 
 
-.second-section{
+.lorem2{
       margin-top: 100px;
-     
-}
-
-:root {
-
-    --main: #8B0102;    
+      font-size: medium;
 }
 
 
- i{
+/* colore icone */
+i{
     color: #8B0102;
-
 }
 
+
+/* riga seconda sezione */
 .rigass{
     border-bottom: 3px solid #8B0102;
-
+    max-height: 83px
 }
 
-/* .pallino{
-    position: relative;
 
-} */
-
-/* .pallino::before{
+/* pallino riga */
+.pallino{
     content="";
     width: 20px;
     height: 20px;
-    border: 2px solid blue;
+    border: 3px solid #8B0102;
     border-radius: 50%;
-    background-color: blueviolet;
-    position: absolute;
-   
+    background-color: white;
+    position: relative;
+    top: -9px;
 }
- */
+
+
+a:hover{
+    opacity: 0.5;
+}
+
+
+/* responsive per smartphone */
+@media screen and (max-width: 390px){
+
+    a{
+        font-size: 70%;
+    }
+
+    .contenitoreriga{
+        height: 15%;
+    }
+
+    .logo-dimension{
+        height: 50%;
+    }
+
+    .contenitoriniziale{
+        height: 50vh;
+    }
+
+    .rigariga{
+        height: 100%;
+    }
+
+    .rigalogo{
+        margin: 10px 0px 0px 0px;
+    }
+
+    .colonnariga{
+        height: 100%;
+    }
+
+    .contenitorelorem1{
+        height: 15vh;
+    }
+
+    .lorem1{
+        margin: 0px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .lorem1 p{
+        font-size: 55%;
+    }
+
+
+    .lorem2{
+        font-size: 70%;
+        margin: 0px 0px 0px 0px;
+        padding-bottom: -5px;
+    }
+
+
+    .pallino{
+        width: 15px;
+        height: 15px;
+        border:#8B0102 solid 3px;
+        margin-top: 2px;
+    }
+}
