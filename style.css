@@ -102,5 +102,22 @@ h1{
     color:  #8B0102;
 }
 .text-size{
-    font-size: small;
+    font-size: x-small;
+}
+
+
+.second-section{
+      margin-top: 100px;
+     
+}
+
+:root {
+
+    --main: #8B0102;    
+}
+
+
+ i{
+    color: #8B0102;
+
 }
