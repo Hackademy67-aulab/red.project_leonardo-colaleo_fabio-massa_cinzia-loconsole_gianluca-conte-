@@ -1,0 +1,90 @@
+/* font */
+*{
+    font-family: 'Antonio', sans-serif;
+}
+
+
+/* altezza background di sfondo */
+.bgsfondo{
+    height: 1080px;
+}
+
+/* immagine background di sfondo */
+.imagemountain{
+    background: url(./switzerland-862870_1920.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* altezza background sfumatura */
+.bgsfumatura{
+    height: 1080px;
+}
+
+/* sfumatura */
+.imagemountainsfumatura{
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* riga top logo + link */
+.rigalogo{
+    height: 350px;
+    width: 100%
+}
+
+/* riga bottom - background montagne bianche */
+.mountainwhite{
+    background: url(./mountains.png);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: bottom;
+    background-size: contain;
+}
+
+/* riga top - logo */
+.logo{
+    height: 20%;
+}
+
+/* riga titolo */
+.rigatitolo{
+    height: 350px;
+    width: 100%
+}
+
+/* Titolo */
+h1{
+    font-size: 100%;
+    letter-spacing: 15px;
+    color: #8B0102;
+}
+
+@media screen and (min-width: 500px;){
+    #paginaintera{
+        height: 50vh;
+        background-color: #8B0102;
+
+    }
+}
+
+/* prima sezione frase lorem */
+.lorem1{
+    margin-top: 100px;
+    wi
+}
+
+.lorem1 p{
+    width: 15%;
+    padding: 0;
+    margin: 0;
+    font-style: italic;
+    text-align: center;
+}
+
+.virgolette{
+    color: #8B0102;
+}
