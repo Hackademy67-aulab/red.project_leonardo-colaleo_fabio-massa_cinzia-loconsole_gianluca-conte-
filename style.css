@@ -74,11 +74,10 @@ h1{
 /* prima sezione frase lorem */
 .lorem1{
     margin-top: 100px;
-    wi
 }
 
 .lorem1 p{
-    width: 15%;
+    width: 40%;
     padding: 0;
     margin: 0;
     font-style: italic;
@@ -93,4 +92,15 @@ h1{
 .logo-dimension{
     height:30%;
 
+}
+.link-decoration{
+    list-style: none;
+}
+.link-decoration a{
+    text-decoration: none;
+    margin-right: 30px;
+    color:  #8B0102;
+}
+.text-size{
+    font-size: small;
 }
