@@ -432,4 +432,15 @@ h2{
         font-size: 4vw;
     }
 
+    .penultima{
+        height: 20vh;
+    }
+
+    .bg-penultima{
+        background: #ECECEC  url(./media/mountain7.png);
+        background-size: contain;
+        background-position-y:bottom;
+        background-repeat: no-repeat;
+    }
+
 }
