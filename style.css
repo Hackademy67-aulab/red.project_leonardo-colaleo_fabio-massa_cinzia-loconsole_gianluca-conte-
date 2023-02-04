@@ -253,6 +253,16 @@ h2{
     padding: 0.5vh;
 }
 
+/* penultima sezione */
+.penultima{
+    height: 40vh;
+}
+
+.bg-penultima{
+    background: #ECECEC  url(./media/mountain7.png);
+    background-size: contain;
+}
+
 
 /* responsive per smartphone */
 @media screen and (max-width: 390px){
