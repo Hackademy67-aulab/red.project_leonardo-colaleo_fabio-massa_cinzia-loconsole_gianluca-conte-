@@ -176,6 +176,38 @@ button:hover{
     opacity: 0.5;
 }
 
+/* sezione lorem5 */
+.lorem5{
+    min-height: 45vh;
+    background: white;
+    padding-top: 7vh;
+}
+
+h2{
+    color: #8B0102;
+}
+
+.timeline{
+    border-left: 3px solid #8B0102;
+    padding-left: 1vw;
+}
+
+.pallino2{
+    position: relative;
+}
+
+.pallino2::before{
+    content:"";
+    width: 2vh;
+    height: 2vh;
+    border: 3px solid #8B0102;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: -1.55vw;
+}
+
+
 
 /* responsive per smartphone */
 @media screen and (max-width: 390px){
@@ -239,9 +271,7 @@ button:hover{
 
     .lorem4{
         background: url(./media/mountains2.png), #ECECEC;
-        background-size: contain;
-        background-position-y: bottom;
-        background-repeat: no-repeat;
+        background-size: 1%;
     }
 
     button{
@@ -267,6 +297,50 @@ button:hover{
         background: url(./media/mountains2.png), #ECECEC;
         background-size: cover;
         background-repeat: no-repeat;
+    }
+
+
+    .mountain3{
+        height: 1vh;
+    }
+
+
+    .lorem5 p,  h3{
+        font-size: 3vw;
+    }
+    .lorem5 h2{
+        font-size: 6vw;
+        padding-left: 2.3vw;
+    }
+
+
+    .timeline{
+        padding-left: 2vh;
+    }
+
+    .pallino2{
+        position: relative;
+    }
+
+    .pallino2::before{
+        content:"";
+        width: 3vh;
+        height: 3vh;
+        border: 3px solid #8B0102;
+        border-radius: 50%;
+        background-color: white;
+        position: absolute;
+        left: -6.5vw;
+    }
+
+
+    .containerlorem4{
+        height: 20vh !important;
+    }
+
+
+    .mountain3{
+        display: none !important;
     }
 
 }
