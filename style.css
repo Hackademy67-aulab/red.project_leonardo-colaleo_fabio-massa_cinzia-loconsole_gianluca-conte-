@@ -263,6 +263,22 @@ h2{
     background-size: contain;
 }
 
+/* footer */
+
+.footer{
+    background-color: #8B0102;
+    color: #ECECEC;
+    min-height: 25vh;
+}
+
+.footer h2, h4{
+    color: #ECECEC;
+}
+
+.footer p{
+    color: #ECECEC;
+}
+
 
 /* responsive per smartphone */
 @media screen and (max-width: 390px){
@@ -343,7 +359,6 @@ h2{
         margin-bottom: 0;
     }
 
-
     .lorem3 h3{
         font-size: 2.5vh;
     }
@@ -354,11 +369,9 @@ h2{
         background-repeat: no-repeat;
     }
 
-
     .mountain3{
         height: 1vh;
     }
-
 
     .lorem5 p,  h3{
         font-size: 3vw;
@@ -367,7 +380,6 @@ h2{
         font-size: 6vw;
         padding-left: 2.3vw;
     }
-
 
     .timeline{
         padding-left: 2vh;
@@ -388,11 +400,9 @@ h2{
         left: -6.5vw;
     }
 
-
     .containerlorem4{
         height: 20vh !important;
     }
-
 
     .mountain3{
         display: none !important;
@@ -410,7 +420,6 @@ h2{
         font-size: 4vw;
     }
 
-
     .lorem6 i{
         display: none;
     }
@@ -418,7 +427,6 @@ h2{
     .lorem6 article{
         width: 90% !important;
     }
-
 
     .lorem7{
         min-height: 15vh
@@ -443,4 +451,22 @@ h2{
         background-repeat: no-repeat;
     }
 
+
+    .footer p, li{
+        font-size: 2.5vw;
+    }
+
+    .footer h2{
+        font-size: 7vw;
+    }
+
+    .footer h4{
+        font-size: 5vw;
+    }
+
+    .footer{
+        min-height: 45vh;
+        display: flex;
+        justify-content: space-evenly;
+    }
 }
