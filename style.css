@@ -5,7 +5,6 @@
 }
 
 /* background grigio */
-
 .bg-grigio{
     background: #ECECEC;
 }
@@ -72,6 +71,10 @@ h1{
     color: #8B0102;
 }
 
+
+h4{
+    color: #8B0102;
+}
 
 /* prima sezione frase lorem */
 .lorem1{
@@ -156,7 +159,7 @@ h3{
 /* sezione lorem4 */
 .lorem4{
     background: url(./media/mountains2.png), #ECECEC;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
 }
 
@@ -207,6 +210,48 @@ h2{
     left: -1.55vw;
 }
 
+/* sezione lorem6 */
+.mountain4{
+    height: 10vh;
+    width: 10vh;
+    border: #8B0102 3px solid;
+    padding: 0.5vh;
+}
+
+.lorem6{
+    height: 30vh;
+}
+
+.hlorem6{
+    height: 15vh;
+    background-color: #ECECEC;
+
+}
+
+.lorem6 div{
+    background-color: #ECECEC;
+}
+
+
+/* sezione lorem7 */
+.lorem7{
+    height: 20vh;
+    background-color: #ECECEC;
+}
+
+.lorem7p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+}
+
+.mountain5{
+    height: 15vh;
+    width: 15vh;
+    border: #8B0102 3px solid;
+    padding: 0.5vh;
+}
 
 
 /* responsive per smartphone */
@@ -341,6 +386,40 @@ h2{
 
     .mountain3{
         display: none !important;
+    }
+
+    .lorem6 {
+        height: 50vh;
+    }
+
+    .lorem6 p{
+        font-size: 2.5vw;
+    }
+
+    .lorem6 h4{
+        font-size: 4vw;
+    }
+
+
+    .lorem6 i{
+        display: none;
+    }
+
+    .lorem6 article{
+        width: 90% !important;
+    }
+
+
+    .lorem7{
+        min-height: 15vh
+    }
+
+    .lorem7 p{
+        font-size: 2.5vw;
+    }
+
+    .lorem7 h3{
+        font-size: 4vw;
     }
 
 }
