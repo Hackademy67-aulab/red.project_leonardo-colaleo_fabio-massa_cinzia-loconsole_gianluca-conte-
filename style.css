@@ -35,7 +35,6 @@
     justify-content: space-between;
 }
 
-
 /* riga top logo + link */
 .rigalogo{
     height: 35%;
@@ -71,10 +70,10 @@ h1{
     color: #8B0102;
 }
 
-
 h4{
     color: #8B0102;
 }
+
 
 /* prima sezione frase lorem */
 .lorem1{
@@ -89,18 +88,15 @@ h4{
     text-align: center;
 }
 
-
 /* logo iniziale */
 .logo-dimension{
     height:30%;
 }
 
-
 /* navbar*/
 .link-decoration{
     list-style: none;
 }
-
 
 /* a navbar */
 .link-decoration a{
@@ -115,19 +111,16 @@ h4{
       font-size: medium;
 }
 
-
 /* colore icone */
 i{
     color: #8B0102;
 }
-
 
 /* riga seconda sezione */
 .rigass{
     border-bottom: 3px solid #8B0102;
     max-height: 83px
 }
-
 
 /* pallino riga */
 .pallino{
@@ -141,10 +134,10 @@ i{
     top: -9px;
 }
 
-
 a:hover{
     opacity: 0.5;
 }
+
 
 /* sezione lorem 3 */
 .lorem3{
@@ -155,6 +148,7 @@ a:hover{
 h3{
     color: #8B0102;
 }
+
 
 /* sezione lorem4 */
 .lorem4{
@@ -178,6 +172,7 @@ button{
 button:hover{
     opacity: 0.5;
 }
+
 
 /* sezione lorem5 */
 .lorem5{
@@ -209,6 +204,7 @@ h2{
     position: absolute;
     left: -1.55vw;
 }
+
 
 /* sezione lorem6 */
 .mountain4{
@@ -253,6 +249,7 @@ h2{
     padding: 0.5vh;
 }
 
+
 /* penultima sezione */
 .penultima{
     height: 40vh;
@@ -263,8 +260,8 @@ h2{
     background-size: contain;
 }
 
-/* footer */
 
+/* footer */
 .footer{
     background-color: #8B0102;
     color: #ECECEC;
