@@ -181,7 +181,7 @@ button:hover{
     padding-top: 7vh;
 }
 
-h2{
+h2, h6{
     color: #8B0102;
 }
 
@@ -409,4 +409,30 @@ h2{
         display: flex;
         justify-content: space-evenly;
     }
+}
+
+.bg-mountain3{
+    background:url(./media/mountain3.png);
+    background-repeat: no-repeat;
+    background-position-y:bottom;
+    
+}
+
+.bg--team{
+    background-color: #ECECEC;
+}
+
+.our-team-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border:#8B0102 2.5px solid;
+    padding: 8px;
+}
+
+.our-team{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
 }
