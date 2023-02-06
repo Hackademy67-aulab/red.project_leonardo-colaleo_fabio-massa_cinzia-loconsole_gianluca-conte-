@@ -214,6 +214,14 @@ h2{
     padding: 0.5vh;
 }
 
+.timeline{
+    border-left: #8B0102 3px solid;
+
+}
+
+.lorem5-height{
+    height: 100vh;
+}
 
 
 /* responsive per smartphone */
@@ -315,10 +323,6 @@ h2{
     .lorem5 h2{
         font-size: 6vw;
         padding-left: 2.3vw;
-    }
-
-    .timeline{
-        padding-left: 2vh;
     }
 
     .pallino2{
