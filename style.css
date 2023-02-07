@@ -436,3 +436,11 @@ h2, h6{
     justify-content:center;
     align-items:center;
 }
+
+.imgourbenefit{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: #8B0102 4px solid;
+    padding: 10px;
+}
