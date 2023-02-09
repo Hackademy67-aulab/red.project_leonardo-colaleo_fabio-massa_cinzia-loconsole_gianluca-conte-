@@ -153,8 +153,9 @@ h3{
 /* sezione lorem4 */
 .lorem4{
     background: url(./media/mountains2.png), #ECECEC;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
+    height: 40vh;
 }
 
 /* bottone */
@@ -397,9 +398,14 @@ h2{
         left: -6.5vw;
     }
 
-    .containerlorem4{
-        height: 20vh !important;
+    .lorem4{
+            background: url(./media/mountains2.png), #ECECEC;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position-y: bottom;
+            height: 30vh
     }
+
 
     .mountain3{
         display: none !important;
