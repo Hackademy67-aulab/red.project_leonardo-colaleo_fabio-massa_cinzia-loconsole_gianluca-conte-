@@ -444,3 +444,20 @@ h2, h6{
     border: #8B0102 4px solid;
     padding: 10px;
 }
+
+.bg-other{
+    background-image: url(./media/other.png);
+    background-repeat: no-repeat;
+    background-position-y:bottom;
+    background-size: contain;
+}
+
+.bg-footer {
+    background-color: #8B0102;
+    
+}
+
+.par{
+    color: whitesmoke ;
+}
+}
