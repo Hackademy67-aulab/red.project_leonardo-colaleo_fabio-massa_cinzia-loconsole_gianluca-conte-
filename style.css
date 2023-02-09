@@ -181,7 +181,7 @@ button:hover{
     padding-top: 7vh;
 }
 
-h2, h6{
+h2{
     color: #8B0102;
 }
 
@@ -214,13 +214,66 @@ h2, h6{
     padding: 0.5vh;
 }
 
-.timeline{
-    border-left: #8B0102 3px solid;
+.lorem6{
+    height: 30vh;
+}
+
+.hlorem6{
+    height: 15vh;
+    background-color: #ECECEC;
 
 }
 
-.lorem5-height{
-    height: 100vh;
+.lorem6 div{
+    background-color: #ECECEC;
+}
+
+
+/* sezione lorem7 */
+.lorem7{
+    height: 20vh;
+    background-color: #ECECEC;
+}
+
+.lorem7p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+}
+
+.mountain5{
+    height: 15vh;
+    width: 15vh;
+    border: #8B0102 3px solid;
+    padding: 0.5vh;
+}
+
+
+/* penultima sezione */
+.penultima{
+    height: 40vh;
+}
+
+.bg-penultima{
+    background: #ECECEC  url(./media/mountain7.png);
+    background-size: contain;
+}
+
+
+/* footer */
+.footer{
+    background-color: #8B0102;
+    color: #ECECEC;
+    min-height: 25vh;
+}
+
+.footer h2, h4{
+    color: #ECECEC;
+}
+
+.footer p{
+    color: #ECECEC;
 }
 
 
@@ -325,6 +378,10 @@ h2, h6{
         padding-left: 2.3vw;
     }
 
+    .timeline{
+        padding-left: 2vh;
+    }
+
     .pallino2{
         position: relative;
     }
@@ -409,55 +466,4 @@ h2, h6{
         display: flex;
         justify-content: space-evenly;
     }
-}
-
-.bg-mountain3{
-    background:url(./media/mountain3.png);
-    background-repeat: no-repeat;
-    background-position-y:bottom;
-    
-}
-
-.bg--team{
-    background-color: #ECECEC;
-}
-
-.our-team-img{
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    border:#8B0102 2.5px solid;
-    padding: 8px;
-}
-
-.our-team{
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items:center;
-}
-
-.imgourbenefit{
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
-    border: #8B0102 4px solid;
-    padding: 10px;
-}
-
-.bg-other{
-    background-image: url(./media/other.png);
-    background-repeat: no-repeat;
-    background-position-y:bottom;
-    background-size: contain;
-}
-
-.bg-footer {
-    background-color: #8B0102;
-    
-}
-
-.par{
-    color: whitesmoke ;
-}
 }
